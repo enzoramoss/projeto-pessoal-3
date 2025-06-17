@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, red, rgb(5, 5, 5));
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gerenciador-de-tarefas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header button {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 42, 42);
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+header button:hover {
+    background-color: rgb(255, 23, 23);
+    border-color: brown;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    background-color: rgba(255, 31, 31, 0.177);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(60, 0, 0);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 10px;
+    gap: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+form input {
+    background-color: rgb(158, 0, 0);
+    border: 0.5px solid rgb(197, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.795);
+}
+
+form select {
+    background-color: rgb(158, 0, 0);
+    border: 0.5px solid rgb(197, 0, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+form button {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form button:hover {
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.211);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+li button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li button:hover {
+    background-color: rgb(105, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
